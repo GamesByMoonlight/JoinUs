@@ -49,7 +49,7 @@ public class CornerstoneController : MonoBehaviour
         if (collision.attachedRigidbody.CompareTag("Player"))
         {
             Model.SetActive(false);
-            StopCoroutine(_newTileListener);
+            if(_newTileListener != null) StopCoroutine(_newTileListener);
         }
     }
 

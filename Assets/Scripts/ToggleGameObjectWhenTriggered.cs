@@ -7,7 +7,7 @@ public class ToggleGameObjectWhenTriggered : MonoBehaviour
 {
     public GameObject ColliderToToggle;
 
-    protected List<ToggleGameObjectWhenTriggered> _collisions = new List<ToggleGameObjectWhenTriggered>();
+    protected List<Collider2D> _collisions = new List<Collider2D>();
 
     protected virtual void Awake()
     {
@@ -17,11 +17,10 @@ public class ToggleGameObjectWhenTriggered : MonoBehaviour
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (_collisions.Contains(collision.GetComponent<ToggleGameObjectWhenTriggered>()))
+        if (_collisions.Contains(collision.GetComponent<Collider2D>()))
             return;
         
-        if(collision.GetComponent<ToggleGameObjectWhenTriggered>() != null)
-            _collisions.Add(collision.GetComponent<ToggleGameObjectWhenTriggered>());
+        _collisions.Add(collision.GetComponent<Collider2D>());
         ColliderToToggle.gameObject.SetActive(false);
     }
 
@@ -32,16 +31,18 @@ public class ToggleGameObjectWhenTriggered : MonoBehaviour
 
     protected virtual void Exit(Collider2D collision)
     {
-        _collisions.Remove(collision.GetComponent<ToggleGameObjectWhenTriggered>());
-        ColliderToToggle.gameObject.SetActive(true);
+        _collisions.Remove(collision.GetComponent<Collider2D>());
+        if(_collisions.Count == 0)
+            ColliderToToggle.gameObject.SetActive(true);
     }
 
     protected virtual void OnDestroy()
     {
         for(int i = 0; i < _collisions.Count; ++i)
         {
-            Assert.IsNotNull(_collisions[i], "A collider was destroyed without notifying us.  Game object " + gameObject.name);
-            _collisions[i].Exit(GetComponent<Collider2D>());
+            //Assert.IsNotNull(_collisions[i], "A collider was destroyed without notifying us.  Game object " + gameObject.name);
+            if(_collisions[i] != null && _collisions[i].GetComponent<ToggleGameObjectWhenTriggered>() != null)
+                _collisions[i].GetComponent<ToggleGameObjectWhenTriggered>().Exit(GetComponent<Collider2D>());
         }
     }
 }
