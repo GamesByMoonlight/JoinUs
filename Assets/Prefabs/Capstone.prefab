@@ -67,12 +67,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f947563887750a34f8b5d96af4e8f420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TilePrefab: {fileID: 7342178928067308315}
-  Next:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  Top: {fileID: 0}
+  Bottom: {fileID: 0}
+  Right: {fileID: 0}
+  Left: {fileID: 0}
 --- !u!1 &7342178929075375765
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +285,11 @@ PrefabInstance:
       propertyPath: CapstonePrefab
       value: 
       objectReference: {fileID: 7342178928067308315}
+    - target: {fileID: 8502822963545176296, guid: acc82ee4bf9e52441a3891b2c2e3beb0,
+        type: 3}
+      propertyPath: Index
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc82ee4bf9e52441a3891b2c2e3beb0, type: 3}
 --- !u!4 &1683561195868266881 stripped
@@ -447,6 +450,11 @@ PrefabInstance:
       propertyPath: CapstonePrefab
       value: 
       objectReference: {fileID: 7342178928067308315}
+    - target: {fileID: 8502822963545176296, guid: acc82ee4bf9e52441a3891b2c2e3beb0,
+        type: 3}
+      propertyPath: Index
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc82ee4bf9e52441a3891b2c2e3beb0, type: 3}
 --- !u!4 &2947078805396717927 stripped
@@ -527,6 +535,11 @@ PrefabInstance:
       propertyPath: CapstonePrefab
       value: 
       objectReference: {fileID: 7342178928067308315}
+    - target: {fileID: 8502822963545176296, guid: acc82ee4bf9e52441a3891b2c2e3beb0,
+        type: 3}
+      propertyPath: Index
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc82ee4bf9e52441a3891b2c2e3beb0, type: 3}
 --- !u!4 &8335604592275002553 stripped

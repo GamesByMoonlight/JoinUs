@@ -218,6 +218,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 1556051138}
+--- !u!114 &1004954646 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1913210827763627179, guid: 51dd5c5302a088c42991ec10bc4ed368,
+    type: 3}
+  m_PrefabInstance: {fileID: 7342178928859562913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f947563887750a34f8b5d96af4e8f420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1304629771
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,16 +487,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2067777416511643589, guid: 51dd5c5302a088c42991ec10bc4ed368,
+    - target: {fileID: 2001027150756370242, guid: 51dd5c5302a088c42991ec10bc4ed368,
         type: 3}
-      propertyPath: Index
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186488859930380827, guid: 51dd5c5302a088c42991ec10bc4ed368,
+      propertyPath: ParentCapstone
+      value: 
+      objectReference: {fileID: 1004954646}
+    - target: {fileID: 2629546811154757540, guid: 51dd5c5302a088c42991ec10bc4ed368,
         type: 3}
-      propertyPath: Index
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: ParentCapstone
+      value: 
+      objectReference: {fileID: 1004954646}
+    - target: {fileID: 4498776568743361568, guid: 51dd5c5302a088c42991ec10bc4ed368,
+        type: 3}
+      propertyPath: ParentCapstone
+      value: 
+      objectReference: {fileID: 1004954646}
+    - target: {fileID: 4651434661469569692, guid: 51dd5c5302a088c42991ec10bc4ed368,
+        type: 3}
+      propertyPath: ParentCapstone
+      value: 
+      objectReference: {fileID: 1004954646}
     - target: {fileID: 7342178928067308314, guid: 51dd5c5302a088c42991ec10bc4ed368,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -544,11 +566,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Capstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 8665217399289998077, guid: 51dd5c5302a088c42991ec10bc4ed368,
-        type: 3}
-      propertyPath: Index
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51dd5c5302a088c42991ec10bc4ed368, type: 3}

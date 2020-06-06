@@ -856,7 +856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038b3bc0ab621a948ac4afd044f68dc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectToDestroy: {fileID: 1809361573946209173}
+  ParentCornerstoneToDestroy: {fileID: 1809361573946209173}
+  ParentCapstone: {fileID: 0}
 --- !u!1 &6870879967910675131
 GameObject:
   m_ObjectHideFlags: 0
