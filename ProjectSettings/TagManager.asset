@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Repitcher
+  - Bars
+  - Pad
+  - Percussion
   layers:
   - Default
   - TransparentFX

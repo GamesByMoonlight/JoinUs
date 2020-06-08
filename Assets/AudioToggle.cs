@@ -5,22 +5,23 @@ using UnityEngine.Audio;
 
 public class AudioToggle : MonoBehaviour
 {
+    private const float QUIET_VOLUME = -10f;
+    private const float NORMAL_VOLUME = 0;
     private bool playing = true;
     public AudioMixer mixer;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("triggered by " + collision.gameObject.tag);
         if (collision.gameObject.tag == "Player")
         {
             if (playing)
             {
-                mixer.SetFloat(tag, -10f);
+                mixer.SetFloat(tag, QUIET_VOLUME);
                 playing = false;
             }
             else
             {
-                mixer.SetFloat(tag, -0);
+                mixer.SetFloat(tag, NORMAL_VOLUME);
                 playing = true;
             }
         }
