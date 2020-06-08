@@ -2215,7 +2215,6 @@ GameObject:
   - component: {fileID: 1556051138}
   - component: {fileID: 1556051135}
   - component: {fileID: 1556051134}
-  - component: {fileID: 1556051136}
   m_Layer: 8
   m_Name: Player Avatar
   m_TagString: Player
@@ -2257,18 +2256,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1556051136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556051133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e4089a2759852b46827e0c84d542cc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1556051138
 Transform:
   m_ObjectHideFlags: 0
