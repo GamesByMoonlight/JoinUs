@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 762670925}
   m_Layer: 8
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Percussion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 1171111268}
   m_Layer: 8
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Bars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2218,6 +2218,7 @@ GameObject:
   - component: {fileID: 1556051135}
   - component: {fileID: 1556051134}
   - component: {fileID: 1556051136}
+  - component: {fileID: 1556051137}
   m_Layer: 8
   m_Name: Player Avatar
   m_TagString: Player
@@ -2258,7 +2259,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1556051136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2274,6 +2275,32 @@ MonoBehaviour:
   RecolorableLayers:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &1556051137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556051133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2162f0c9aebad4a48a68ed79c8954466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boomPrefab: {fileID: 453110470371519831, guid: a907d0b2fe676d144b0b2cd6e70d3503,
+    type: 3}
+  barsBoomPrefab: {fileID: 453110470371519831, guid: 03a5077e204f8fe43bf1ff7a4b8a39ea,
+    type: 3}
+  padBoomPrefab: {fileID: 453110470371519831, guid: 7134b43760f463b49bc49ef174284ea6,
+    type: 3}
+  percussionBoomPrefab: {fileID: 453110470371519831, guid: d24a56e68c3956e4e9b8723e42778db9,
+    type: 3}
+  mainCamera: {fileID: 963194225}
+  cameraRescaleDuration: 0.25
+  cameraRescaleMagnitude: 0.5
+  barsColor: {r: 0.8301887, g: 0.41117835, b: 0.64188707, a: 1}
+  padColor: {r: 0.47073755, g: 0.7830189, b: 0.28439835, a: 1}
+  percussionColor: {r: 0.26237094, g: 0.8301887, b: 0.8191811, a: 1}
 --- !u!4 &1556051138
 Transform:
   m_ObjectHideFlags: 0
@@ -2346,7 +2373,7 @@ GameObject:
   - component: {fileID: 1741484778}
   m_Layer: 8
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Pad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
