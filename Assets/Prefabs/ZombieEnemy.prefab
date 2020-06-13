@@ -71,6 +71,8 @@ MonoBehaviour:
   viewRange: 10
   turnedPrefab: {fileID: 7740946995205127166, guid: 1d30909b3b3cb23449ae67dc71b0f2fd,
     type: 3}
+  explodePrefab: {fileID: 453110470371519831, guid: 7134b43760f463b49bc49ef174284ea6,
+    type: 3}
 --- !u!1 &9151465774264534517
 GameObject:
   m_ObjectHideFlags: 0

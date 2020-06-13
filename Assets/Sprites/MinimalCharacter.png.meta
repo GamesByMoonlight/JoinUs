@@ -1,12 +1,165 @@
 fileFormatVersion: 2
 guid: eeb68d44a260e964584c4310ad5add3a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4954971433975340811
+    second: MinimalCharacter_R
+  - first:
+      213: 7388793250407254911
+    second: MinimalCharacter_R_Headbutt1
+  - first:
+      213: -5748688805705008009
+    second: MinimalCharacter_R_Headbutt2
+  - first:
+      213: 4532412611878704941
+    second: MinimalCharacter_R_Headbutt3
+  - first:
+      213: -8975144007771581826
+    second: MinimalCharacter_L
+  - first:
+      213: -5019076546978803203
+    second: MinimalCharacter_L_Headbutt1
+  - first:
+      213: -5683687316191549482
+    second: MinimalCharacter_L_Headbutt2
+  - first:
+      213: -1860947804770500815
+    second: MinimalCharacter_L_Headbutt3
+  - first:
+      213: 816522662419813377
+    second: MinimalCharacter_R
+  - first:
+      213: -6600973326823879261
+    second: MinimalCharacter_R_Headbutt1
+  - first:
+      213: 8049988843832455344
+    second: MinimalCharacter_R_Headbutt2
+  - first:
+      213: -3357256110036864445
+    second: MinimalCharacter_R_Headbutt3
+  - first:
+      213: -7979589457128218403
+    second: MinimalCharacter_L
+  - first:
+      213: 9083195061990792668
+    second: MinimalCharacter_L_Headbutt1
+  - first:
+      213: 7309975738843569767
+    second: MinimalCharacter_L_Headbutt2
+  - first:
+      213: 3429605254760719436
+    second: MinimalCharacter_L_Headbutt3
+  - first:
+      213: -367398191165528599
+    second: MinimalCharacter_Idle
+  - first:
+      213: -8494998195669792442
+    second: MinimalCharacter_R_Walk
+  - first:
+      213: -7678427079648232250
+    second: MinimalCharacter_L_Walk
+  - first:
+      213: 4563579496837574501
+    second: MinimalCharacter_Idle
+  - first:
+      213: 900414489333084520
+    second: MinimalCharacter_R_Walk
+  - first:
+      213: 3891160933649144
+    second: MinimalCharacter_L_Walk
+  - first:
+      213: -8933726731617336532
+    second: MinimalCharacter_V_Walk
+  - first:
+      213: 816522662419813377
+    second: MinimalCharacter_R
+  - first:
+      213: -6600973326823879261
+    second: MinimalCharacter_R_Headbutt1
+  - first:
+      213: 8049988843832455344
+    second: MinimalCharacter_R_Headbutt2
+  - first:
+      213: -3357256110036864445
+    second: MinimalCharacter_R_Headbutt3
+  - first:
+      213: -7979589457128218403
+    second: MinimalCharacter_L
+  - first:
+      213: 9083195061990792668
+    second: MinimalCharacter_L_Headbutt1
+  - first:
+      213: 7309975738843569767
+    second: MinimalCharacter_L_Headbutt2
+  - first:
+      213: 3429605254760719436
+    second: MinimalCharacter_L_Headbutt3
+  - first:
+      213: 4563579496837574501
+    second: MinimalCharacter_Idle
+  - first:
+      213: 900414489333084520
+    second: MinimalCharacter_R_Walk
+  - first:
+      213: 3891160933649144
+    second: MinimalCharacter_L_Walk
+  - first:
+      213: 845655266875012471
+    second: MinimalCharacter_D_Walk
+  - first:
+      213: -8620536997859392137
+    second: MinimalCharacter_12
+  - first:
+      213: 4530155773811729731
+    second: MinimalCharacter_U_Walk2
+  - first:
+      213: 816522662419813377
+    second: MinimalCharacter_0
+  - first:
+      213: -6600973326823879261
+    second: MinimalCharacter_1
+  - first:
+      213: 8049988843832455344
+    second: MinimalCharacter_2
+  - first:
+      213: -3357256110036864445
+    second: MinimalCharacter_3
+  - first:
+      213: -7979589457128218403
+    second: MinimalCharacter_4
+  - first:
+      213: 9083195061990792668
+    second: MinimalCharacter_5
+  - first:
+      213: 7309975738843569767
+    second: MinimalCharacter_6
+  - first:
+      213: 3429605254760719436
+    second: MinimalCharacter_7
+  - first:
+      213: 4563579496837574501
+    second: MinimalCharacter_8
+  - first:
+      213: 900414489333084520
+    second: MinimalCharacter_9
+  - first:
+      213: 3891160933649144
+    second: MinimalCharacter_10
+  - first:
+      213: -8933726731617336532
+    second: MinimalCharacter_11
+  - first:
+      213: 8778705176006792036
+    second: MinimalCharacter_12
+  - first:
+      213: -3905206139017062671
+    second: MinimalCharacter_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -31,7 +184,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +193,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +222,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -81,7 +234,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -108,7 +261,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MinimalCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104d69c090fd45b00800000000000000
+      internalID: 816522662419813377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad85d29bb1a464a0800000000000000
+      internalID: -6600973326823879261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0bd7ae33e47bf60800000000000000
+      internalID: 8049988843832455344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3423e3dfa51a861d0800000000000000
+      internalID: -3357256110036864445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0ab6a9aadc24190800000000000000
+      internalID: -7979589457128218403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd1b87b8cdfd0e70800000000000000
+      internalID: 9083195061990792668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e9e7e5430427560800000000000000
+      internalID: 7309975738843569767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4463d1fec7689f20800000000000000
+      internalID: 3429605254760719436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f624d9f57155f30800000000000000
+      internalID: 4563579496837574501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861305b153aee7c00800000000000000
+      internalID: 900414489333084520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac6318df2dd0000800000000000000
+      internalID: 3891160933649144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c238989ded6050480800000000000000
+      internalID: -8933726731617336532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46394c398d934d970800000000000000
+      internalID: 8778705176006792036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6963d05bbedc9c0800000000000000
+      internalID: -3905206139017062671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

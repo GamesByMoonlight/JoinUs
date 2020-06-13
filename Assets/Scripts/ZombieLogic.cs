@@ -22,6 +22,7 @@ public class ZombieLogic : MonoBehaviour
     public float viewRange = 10f;
 
     public GameObject turnedPrefab;
+    public GameObject explodePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -115,5 +116,15 @@ public class ZombieLogic : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.name.StartsWith("Headbutt"))
+        {
+            GameObject boomEffect = Instantiate(explodePrefab, transform.position, Quaternion.identity) as GameObject;
+            Destroy(boomEffect.gameObject, 2.0f);
+            Destroy(gameObject);
+        }
     }
 }
