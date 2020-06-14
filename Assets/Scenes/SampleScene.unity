@@ -189,14 +189,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'hi im katherine!!
+  m_Text: 'Add Something
 
-    i hope we can work together more
-
-    in the future!
-
-    contact
-    info in readme'
+    Send a Pull Request'
 --- !u!222 &54249002
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2936,9 +2931,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefab: {fileID: 7342178928067308315, guid: 51dd5c5302a088c42991ec10bc4ed368, type: 3}
   clips:
-  - {fileID: 8300000, guid: ff7f266fc21954227ab1e7dc8183eb1c, type: 3}
-  - {fileID: 8300000, guid: e087ec12ad13e4835bdde98299202efd, type: 3}
   - {fileID: 8300000, guid: 2361494ad03c94af18a94ee2dee3d253, type: 3}
+  - {fileID: 8300000, guid: e087ec12ad13e4835bdde98299202efd, type: 3}
+  - {fileID: 8300000, guid: ff7f266fc21954227ab1e7dc8183eb1c, type: 3}
 --- !u!82 &1733243404
 AudioSource:
   m_ObjectHideFlags: 0
