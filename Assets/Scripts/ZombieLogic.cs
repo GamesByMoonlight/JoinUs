@@ -120,7 +120,8 @@ public class ZombieLogic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name.StartsWith("Headbutt"))
+        //Added projectile collisions to triggering zombie death
+        if (collision.name.StartsWith("Headbutt") || collision.tag == "Projectile")
         {
             GameObject boomEffect = Instantiate(explodePrefab, transform.position, Quaternion.identity) as GameObject;
             Destroy(boomEffect.gameObject, 2.0f);

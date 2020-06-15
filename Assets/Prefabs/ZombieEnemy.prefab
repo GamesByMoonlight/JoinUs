@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 9151465775473742040}
   m_Layer: 8
   m_Name: Colliders
-  m_TagString: Player
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
