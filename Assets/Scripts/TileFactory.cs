@@ -9,6 +9,8 @@ public class TileFactory : MonoBehaviour
 
     public GameObject Prefab;
     public AudioClip[] clips; //array of clips to play
+
+    //Text field from canvas
     public Text capstoneCountText;
     private int capstoneCountInt;
 
@@ -26,6 +28,8 @@ public class TileFactory : MonoBehaviour
         Instantiate(Prefab, controller.transform.position, controller.transform.rotation);
         audioSource.clip = clips[Random.Range(0, clips.Length)];
         audioSource.Play();
+
+        //on tile creation add to count and display
         capstoneCountInt++;
         capstoneCountText.text = capstoneCountInt.ToString();
     }
