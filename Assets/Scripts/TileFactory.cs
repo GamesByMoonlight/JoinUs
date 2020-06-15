@@ -29,7 +29,7 @@ public class TileFactory : MonoBehaviour
         audioSource.clip = clips[Random.Range(0, clips.Length)];
         audioSource.Play();
 
-        //on tile creation add to count and display
+        //on tile creation add to count and display the new int
         capstoneCountInt++;
         capstoneCountText.text = capstoneCountInt.ToString();
     }
