@@ -8,6 +8,9 @@ TagManager:
   - Bars
   - Pad
   - Percussion
+  - Zombie
+  - NPC
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - 
   - Player
   - Building
-  - 
+  - Projectile
   - 
   - 
   - 
