@@ -16,11 +16,14 @@ public class SpeedUpSkill : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter(Collider other)
+    
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
+            Debug.Log("hieeljad");
+            print("hitt");
             // set player as parent object (for skill retention) 
             transform.SetParent(other.transform);
 
