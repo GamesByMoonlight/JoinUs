@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
     public GameObject healthBar;
     public GameObject gameOverObject;
     public SpriteRenderer playerSprite;
+    public List<MonoBehaviour> playerInputs;
 
     // Properties
     public bool IsDead { get; set; }
@@ -90,13 +91,20 @@ public class PlayerStats : MonoBehaviour
         GameObject[] zombies = GameObject.FindGameObjectsWithTag("Zombie");
         foreach(GameObject zombie in zombies)
         {
-            zombie.GetComponent<ZombieLogic>().enabled = false;
+            // Make sure the zombie has the correct script on it
+            ZombieLogic zombieScript = zombie.GetComponent<ZombieLogic>();
+            if (zombieScript != null)
+            {
+                zombie.GetComponent<ZombieLogic>().enabled = false;
+            }
         }
 
         // Hide player and disable input
-        playerSprite.enabled = false;
-        gameObject.GetComponent<KeyboardMovement>().enabled = false;
-        gameObject.GetComponent<PlayerAttackController>().enabled = false;
+        playerSprite.enabled = false;        
+        foreach (MonoBehaviour script in playerInputs)
+        {
+            script.enabled = false;
+        }
     }
 
     // Enumerator called after the player dies. Restarts the scene after a set timer.
