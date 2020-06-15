@@ -67,10 +67,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f947563887750a34f8b5d96af4e8f420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Top: {fileID: 0}
-  Bottom: {fileID: 0}
-  Right: {fileID: 0}
-  Left: {fileID: 0}
+  Next:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &7342178929075375765
 GameObject:
   m_ObjectHideFlags: 0
