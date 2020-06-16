@@ -25,12 +25,14 @@ public class TileFactory : MonoBehaviour
 
     public virtual void Spawn(CornerstoneController controller)
     {
+        //on tile creation add to count and display the new int
+        capstoneCountInt++;
+        capstoneCountText.text = capstoneCountInt.ToString();
+
+
         Instantiate(Prefab, controller.transform.position, controller.transform.rotation);
         audioSource.clip = clips[Random.Range(0, clips.Length)];
         audioSource.Play();
 
-        //on tile creation add to count and display the new int
-        capstoneCountInt++;
-        capstoneCountText.text = capstoneCountInt.ToString();
     }
 }
